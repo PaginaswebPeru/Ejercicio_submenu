@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+	<item
+        android:id="@+id/action_01"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="item 01"/>
+	<item
+        android:id="@+id/action_02"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="item 02"/>
+	<item
+        android:id="@+id/action_03"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="item 03">
+	    <menu>
+	        <item 
+	           android:id="@+id/subitem01"
+	           android:title="Sub Item 01"/>
+	        <item 
+	           android:id="@+id/subitem02"
+	           android:title="Sub Item 02"/>
+	        <item 
+	           android:id="@+id/subitem03"
+	           android:title="Sub Item 03"/>
+	    </menu>
+	</item>
+</menu>
